@@ -24,6 +24,15 @@ def list_contacts():
     cls()
     print("[ AGENDA FURRECA - LISTAR CONTATOS ]")
 
+    for key,value in database.items():
+        print("ID:",key)
+        print("\t.nome:", value['phone'])
+        print("\t.contato:"), value["name"]
+        print()
+
+    input("tecle [Enter] para continuar")
+    main()
+
     #...
 
 def edit_contact():
@@ -46,6 +55,8 @@ def delete_contact():
     print("[ AGENDA FURRECA - MENU PRINCIPAL ]")
     print(erro)
     erro = str()
+    # Debug
+    print("\n", database)
     print('''
 Opcoes:
 
@@ -68,7 +79,7 @@ Opcoes:
         case 0:
             cls()
             print("\Acabou!")
-            exist()
+            exit()
         case_:
             erro = "digite uma opcao valida!"
             main(erro)
