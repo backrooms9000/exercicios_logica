@@ -1,8 +1,8 @@
 ############################################
-# 2026.08.10.Funcoes\agenda_furreca.py     #
-# AGENDA FURRECA.PY                        #
+# 2026.08.10.Funcoes\agenda.xdfvghh.py     #
+# AGENDA bytrxee.PY                        #
 # Versão 2026.08.14                        #
-# By Luferat -                             #
+# By cccg -                             #
 ############################################
 
 # Importa "subprocess" e "os" que permitem executar comandos do sistema
@@ -50,7 +50,7 @@ def new_contact():
     cls()
 
     # Cabeçalho
-    print("[ AGENDA FURRECA - NOVO CONTATO ]")
+    print("[ AGENDA bytrxee - NOVO CONTATO ]")
     print("\nDigite os dados do contato:\n")
 
     # Recebe os dados do usuário
